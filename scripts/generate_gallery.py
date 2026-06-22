@@ -10,8 +10,6 @@ CONTACT_SHEETS = sorted((ROOT / "contact_sheets").glob("contact_sheet_*.jpg"))
 def status_for(image: Path) -> str:
     if (ROOT / "selected" / image.name).exists():
         return "selected"
-    if (ROOT / "rejected" / image.name).exists():
-        return "rejected"
     return "candidate"
 
 

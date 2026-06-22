@@ -32,6 +32,14 @@ CRUTCH_ADDITION = (
 
 CAPTION_CRUTCH = "forearm crutches, careful posture"
 
+STRICT_TROUSER_RULE = (
+    "strict outfit rule, long black trousers in every image, no shorts, no "
+    "skirt-like silhouette, no bare legs, clearly male 17-year-old Korean high "
+    "school student, bilateral orthopedic leg braces worn over or around long "
+    "black trousers, avoid childlike proportions, avoid cute child face, avoid "
+    "schoolgirl silhouette"
+)
+
 NEGATIVE_PROMPT = (
     "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young "
     "boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, "
@@ -207,6 +215,7 @@ def main():
     parser.add_argument("--steps", type=int, default=30)
     parser.add_argument("--start-index", type=int, default=1)
     parser.add_argument("--stop-index", type=int, default=80)
+    parser.add_argument("--indices", default="")
     parser.add_argument("--overwrite", action="store_true")
     args = parser.parse_args()
 
@@ -227,8 +236,26 @@ def main():
     wait_for_comfy(args.comfy_url)
     base_workflow = json.loads(workflow_path.read_text())
 
-    manifest = []
+    selected_indices = None
+    if args.indices.strip():
+        selected_indices = {
+            int(part)
+            for part in args.indices.replace(" ", "").split(",")
+            if part
+        }
+
+    manifest_path = dataset_root / "manifest.json"
+    manifest_by_index = {}
+    if manifest_path.exists():
+        try:
+            for item in json.loads(manifest_path.read_text()):
+                manifest_by_index[int(item["index"])] = item
+        except Exception:
+            manifest_by_index = {}
+
     for index, (mobility, scene) in enumerate(SCENES, 1):
+        if selected_indices is not None and index not in selected_indices:
+            continue
         if index < args.start_index or index > args.stop_index:
             continue
 
@@ -236,18 +263,19 @@ def main():
         txt_path = caption_dir / f"bini_body_{index:03d}.txt"
 
         if mobility == "crutches":
-            final_prompt = f"{BASE_PROMPT}, {scene}, {CRUTCH_ADDITION}"
+            final_prompt = f"{BASE_PROMPT}, {scene}, {CRUTCH_ADDITION}, {STRICT_TROUSER_RULE}"
             caption = f"{CAPTION_BASE}, {CAPTION_CRUTCH}, {scene}"
             negative_prompt = f"{NEGATIVE_PROMPT}, {CRUTCH_NEGATIVE}"
         elif mobility == "discreet":
             final_prompt = (
                 f"{BASE_PROMPT}, {scene}, long black trousers, clearly male "
-                "17 year old, medical orthopedic leg braces may be subtle or partly obscured"
+                "17 year old, medical orthopedic leg braces may be subtle or partly obscured, "
+                f"{STRICT_TROUSER_RULE}"
             )
             caption = f"{CAPTION_BASE}, mobility aids not clearly visible, {scene}"
             negative_prompt = f"{NEGATIVE_PROMPT}, {DISCREET_AID_NEGATIVE}"
         else:
-            final_prompt = f"{BASE_PROMPT}, {scene}"
+            final_prompt = f"{BASE_PROMPT}, {scene}, {STRICT_TROUSER_RULE}"
             caption = f"{CAPTION_BASE}, {scene}"
             negative_prompt = f"{NEGATIVE_PROMPT}, {LEG_BRACES_NEGATIVE}"
 
@@ -273,22 +301,26 @@ def main():
             txt_path.write_text(caption + "\n", encoding="utf-8")
             print(f"SAVED {png_path}", flush=True)
 
-        manifest.append(
-            {
-                "index": index,
-                "file": str(png_path),
-                "caption_file": str(txt_path),
-                "mobility": mobility,
-                "status": status_for(image_dir, png_path.name),
-                "prompt": final_prompt,
-                "caption": caption,
-                "negative": negative_prompt,
-            }
+        manifest_by_index[index] = {
+            "index": index,
+            "file": str(png_path),
+            "caption_file": str(txt_path),
+            "mobility": mobility,
+            "status": status_for(image_dir, png_path.name),
+            "prompt": final_prompt,
+            "caption": caption,
+            "negative": negative_prompt,
+        }
+        manifest_path.write_text(
+            json.dumps([manifest_by_index[i] for i in sorted(manifest_by_index)], indent=2),
+            encoding="utf-8",
         )
-        (dataset_root / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
-    (dataset_root / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
-    print(f"DONE {len(manifest)} files in {dataset_root}", flush=True)
+    manifest_path.write_text(
+        json.dumps([manifest_by_index[i] for i in sorted(manifest_by_index)], indent=2),
+        encoding="utf-8",
+    )
+    print(f"DONE {len(manifest_by_index)} manifest entries in {dataset_root}", flush=True)
 
 
 if __name__ == "__main__":
