@@ -1,0 +1,802 @@
+[
+  {
+    "index": 1,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_001.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_001.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, full body front view, standing naturally, neutral expression, white background, character sheet, long black trousers, both orthopedic leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, full body front view, standing naturally, neutral expression, white background, character sheet, long black trousers, both orthopedic leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 2,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_002.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_002.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, full body back view, standing naturally, white background, character sheet, long black trousers, both orthopedic leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, full body back view, standing naturally, white background, character sheet, long black trousers, both orthopedic leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 3,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_003.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_003.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, full body left side view, white background, character sheet, long black trousers, both orthopedic leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, full body left side view, white background, character sheet, long black trousers, both orthopedic leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 4,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_004.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_004.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, full body right side view, white background, character sheet, long black trousers, both orthopedic leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, full body right side view, white background, character sheet, long black trousers, both orthopedic leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 5,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_005.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_005.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, full body 3/4 front left view, white background, character sheet, long black trousers, both orthopedic leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, full body 3/4 front left view, white background, character sheet, long black trousers, both orthopedic leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 6,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_006.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_006.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, full body 3/4 front right view, white background, character sheet, long black trousers, both orthopedic leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, full body 3/4 front right view, white background, character sheet, long black trousers, both orthopedic leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 7,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_007.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_007.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking slowly, full body, careful gait, long black trousers, both orthopedic leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, walking slowly, full body, careful gait, long black trousers, both orthopedic leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 8,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_008.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_008.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, sitting at classroom desk, long black trousers, leg braces visible on both legs",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, sitting at classroom desk, long black trousers, leg braces visible on both legs",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 9,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_009.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_009.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, slowly climbing stairs, holding rail, long black trousers, leg braces visible on both legs",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, slowly climbing stairs, holding rail, long black trousers, leg braces visible on both legs",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 10,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_010.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_010.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, standing with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 11,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_011.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_011.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing in classroom, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing in classroom, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 12,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_012.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_012.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing in school hallway, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing in school hallway, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 13,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_013.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_013.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing beside classroom desk, holding notebook, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing beside classroom desk, holding notebook, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 14,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_014.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_014.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing at bus stop, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing at bus stop, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 15,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_015.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_015.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, waiting near stairs, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, waiting near stairs, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 16,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_016.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_016.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing under school corridor lights, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing under school corridor lights, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 17,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_017.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_017.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing outside school gate, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing outside school gate, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 18,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_018.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_018.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing near classroom window, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing near classroom window, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 19,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_019.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_019.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing alone in empty classroom after school, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing alone in empty classroom after school, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 20,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_020.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_020.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing on rooftop walkway, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing on rooftop walkway, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 21,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_021.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_021.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing in rain, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing in rain, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 22,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_022.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_022.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing under streetlight, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing under streetlight, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 23,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_023.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_023.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing in dark bedroom, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing in dark bedroom, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 24,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_024.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_024.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing in front of mirror, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing in front of mirror, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 25,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_025.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_025.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing near lockers, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing near lockers, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 26,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_026.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_026.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing by stair rail, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing by stair rail, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 27,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_027.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_027.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing at classroom door, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing at classroom door, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 28,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_028.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_028.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing in school courtyard, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing in school courtyard, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 29,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_029.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_029.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing beside bus stop sign, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing beside bus stop sign, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 30,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_030.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_030.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing on sidewalk at dusk, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, standing on sidewalk at dusk, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 31,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_031.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_031.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking in school hallway, full body, careful gait, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, walking in school hallway, full body, careful gait, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 32,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_032.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_032.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking outside school, full body, careful gait, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, walking outside school, full body, careful gait, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 33,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_033.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_033.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking home at night, full body, careful gait, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, walking home at night, full body, careful gait, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 34,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_034.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_034.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking through empty corridor, full body, careful gait, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, walking through empty corridor, full body, careful gait, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 35,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_035.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_035.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking past classroom windows, full body, careful gait, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, walking past classroom windows, full body, careful gait, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 36,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_036.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_036.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking across school courtyard, full body, careful gait, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, walking across school courtyard, full body, careful gait, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 37,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_037.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_037.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking in rainy evening, full body, careful gait, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, walking in rainy evening, full body, careful gait, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 38,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_038.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_038.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking toward bus stop, full body, careful gait, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, walking toward bus stop, full body, careful gait, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 39,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_039.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_039.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking across empty street, full body, careful gait, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, walking across empty street, full body, careful gait, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 40,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_040.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_040.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking past convenience store at night, full body, careful gait, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, walking past convenience store at night, full body, careful gait, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 41,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_041.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_041.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, sitting alone in classroom, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, sitting alone in classroom, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 42,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_042.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_042.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, looking out classroom window, seated, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, looking out classroom window, seated, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 43,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_043.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_043.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, sitting on bed, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, sitting on bed, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 44,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_044.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_044.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, studying late at night, seated, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, studying late at night, seated, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 45,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_045.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_045.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, looking at old photograph, seated, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, looking at old photograph, seated, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 46,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_046.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_046.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, sitting on stair landing, exhausted, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, sitting on stair landing, exhausted, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 47,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_047.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_047.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, sitting alone in school hallway, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, sitting alone in school hallway, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 48,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_048.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_048.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, sitting at bus stop bench, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, sitting at bus stop bench, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 49,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_049.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_049.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, descending stairs carefully, holding rail, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, descending stairs carefully, holding rail, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 50,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_050.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_050.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, resting on stair landing, exhausted, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, resting on stair landing, exhausted, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 51,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_051.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_051.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, holding stair rail, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, holding stair rail, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 52,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_052.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_052.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, reaching top of staircase, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, reaching top of staircase, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 53,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_053.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_053.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, forced smile, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forced smile, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 54,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_054.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_054.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, holding back tears, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, holding back tears, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 55,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_055.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_055.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, lonely expression, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, lonely expression, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 56,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_056.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_056.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, determined expression, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, determined expression, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 57,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_057.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_057.txt",
+    "mobility": "leg_braces",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, emotionally exhausted, full body, long black trousers, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, emotionally exhausted, full body, long black trousers, both leg braces visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, forearm crutches, armpit crutches, wheelchair, cane"
+  },
+  {
+    "index": 58,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_058.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_058.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing in school corridor with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, standing in school corridor with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 59,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_059.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_059.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking slowly outside school with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, walking slowly outside school with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 60,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_060.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_060.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing at bus stop with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, standing at bus stop with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 61,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_061.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_061.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking in school hallway with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, walking in school hallway with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 62,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_062.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_062.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, waiting near stairs with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, waiting near stairs with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 63,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_063.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_063.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, evening hallway lighting with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, evening hallway lighting with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 64,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_064.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_064.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking home at night with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, walking home at night with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 65,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_065.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_065.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, rainy night with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, rainy night with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 66,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_066.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_066.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, crossing empty street with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, crossing empty street with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 67,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_067.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_067.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing under rain with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, standing under rain with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 68,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_068.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_068.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing near classroom door with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, standing near classroom door with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 69,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_069.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_069.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing alone in hallway with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, standing alone in hallway with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 70,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_070.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_070.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking past school lockers with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, walking past school lockers with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 71,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_071.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_071.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing by stair rail with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, standing by stair rail with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 72,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_072.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_072.txt",
+    "mobility": "crutches",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing outside school gate with forearm crutches, full body, long black trousers, using a pair of forearm crutches, medical forearm crutches, careful posture, both leg braces visible",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, forearm crutches, careful posture, standing outside school gate with forearm crutches, full body, long black trousers",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, armpit crutches, wheelchair, cane, walking stick"
+  },
+  {
+    "index": 73,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_073.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_073.txt",
+    "mobility": "discreet",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, upper full body portrait standing behind classroom desk, long black trousers visible, uniform correct, mobility aids not clearly visible, long black trousers, clearly male 17 year old, medical orthopedic leg braces may be subtle or partly obscured",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, mobility aids not clearly visible, upper full body portrait standing behind classroom desk, long black trousers visible, uniform correct, mobility aids not clearly visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, visible crutches, wheelchair, cane, armpit crutches, robot leg, shorts, skirt"
+  },
+  {
+    "index": 74,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_074.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_074.txt",
+    "mobility": "discreet",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, seated at desk with legs partly under desk, long black trousers visible, uniform correct, mobility aids not clearly visible, long black trousers, clearly male 17 year old, medical orthopedic leg braces may be subtle or partly obscured",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, mobility aids not clearly visible, seated at desk with legs partly under desk, long black trousers visible, uniform correct, mobility aids not clearly visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, visible crutches, wheelchair, cane, armpit crutches, robot leg, shorts, skirt"
+  },
+  {
+    "index": 75,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_075.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_075.txt",
+    "mobility": "discreet",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing behind bus stop railing, long black trousers visible, uniform correct, mobility aids not clearly visible, long black trousers, clearly male 17 year old, medical orthopedic leg braces may be subtle or partly obscured",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, mobility aids not clearly visible, standing behind bus stop railing, long black trousers visible, uniform correct, mobility aids not clearly visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, visible crutches, wheelchair, cane, armpit crutches, robot leg, shorts, skirt"
+  },
+  {
+    "index": 76,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_076.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_076.txt",
+    "mobility": "discreet",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing in doorway with lower legs partly shadowed, long black trousers visible, uniform correct, mobility aids not clearly visible, long black trousers, clearly male 17 year old, medical orthopedic leg braces may be subtle or partly obscured",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, mobility aids not clearly visible, standing in doorway with lower legs partly shadowed, long black trousers visible, uniform correct, mobility aids not clearly visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, visible crutches, wheelchair, cane, armpit crutches, robot leg, shorts, skirt"
+  },
+  {
+    "index": 77,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_077.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_077.txt",
+    "mobility": "discreet",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, sitting on bed with legs partly hidden by shadow, long black trousers visible, uniform correct, mobility aids not clearly visible, long black trousers, clearly male 17 year old, medical orthopedic leg braces may be subtle or partly obscured",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, mobility aids not clearly visible, sitting on bed with legs partly hidden by shadow, long black trousers visible, uniform correct, mobility aids not clearly visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, visible crutches, wheelchair, cane, armpit crutches, robot leg, shorts, skirt"
+  },
+  {
+    "index": 78,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_078.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_078.txt",
+    "mobility": "discreet",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing in rain with lower legs partly obscured by reflections, long black trousers visible, uniform correct, mobility aids not clearly visible, long black trousers, clearly male 17 year old, medical orthopedic leg braces may be subtle or partly obscured",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, mobility aids not clearly visible, standing in rain with lower legs partly obscured by reflections, long black trousers visible, uniform correct, mobility aids not clearly visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, visible crutches, wheelchair, cane, armpit crutches, robot leg, shorts, skirt"
+  },
+  {
+    "index": 79,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_079.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_079.txt",
+    "mobility": "discreet",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, standing behind classroom chair, long black trousers visible, uniform correct, mobility aids not clearly visible, long black trousers, clearly male 17 year old, medical orthopedic leg braces may be subtle or partly obscured",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, mobility aids not clearly visible, standing behind classroom chair, long black trousers visible, uniform correct, mobility aids not clearly visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, visible crutches, wheelchair, cane, armpit crutches, robot leg, shorts, skirt"
+  },
+  {
+    "index": 80,
+    "file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/images/bini_body_080.png",
+    "caption_file": "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/captions/bini_body_080.txt",
+    "mobility": "discreet",
+    "status": "candidate",
+    "prompt": "bk_bini_teen, 17 year old Korean male high school student, clearly male teenage boy, slim fragile body, slightly undernourished, narrow shoulders, fragile posture, messy black hair, large dark tired eyes, subtle eye bags, pale skin, lonely serious expression, black Korean male school uniform blazer, white dress shirt, dark tie, long black school trousers, black dress shoes, medical orthopedic leg braces on both legs, realistic anime, cinematic lighting, high-end Korean webtoon style, full body, solo character, character consistency, masterpiece, best quality, walking in dark hallway with lower legs partly shadowed, long black trousers visible, uniform correct, mobility aids not clearly visible, long black trousers, clearly male 17 year old, medical orthopedic leg braces may be subtle or partly obscured",
+    "caption": "bk_bini_teen, 17 year old Korean male high school student, slim fragile body, black male school uniform, long black trousers, bilateral orthopedic leg braces, mobility aids not clearly visible, walking in dark hallway with lower legs partly shadowed, long black trousers visible, uniform correct, mobility aids not clearly visible",
+    "negative": "female, girl, schoolgirl, skirt, dress, shorts, bare thighs, child, young boy, toddler, chibi, cute child, muscular adult, old man, beard, robot leg, cybernetic leg, prosthetic replacement, amputee, one leg brace only, missing leg brace, wheelchair, cane, armpit crutches, bad anatomy, extra limbs, extra arms, extra legs, cropped body, duplicate character, multiple people, text, watermark, logo, visible crutches, wheelchair, cane, armpit crutches, robot leg, shorts, skirt"
+  }
+]

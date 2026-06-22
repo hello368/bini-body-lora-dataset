@@ -10,6 +10,12 @@ let files = try FileManager.default.contentsOfDirectory(at: imageDir, includingP
     .filter { $0.lastPathComponent.hasPrefix("bini_body_") && $0.pathExtension.lowercased() == "png" }
     .sorted { $0.lastPathComponent < $1.lastPathComponent }
 
+let oldSheets = try FileManager.default.contentsOfDirectory(at: outputDir, includingPropertiesForKeys: nil)
+    .filter { $0.lastPathComponent.hasPrefix("contact_sheet_") && $0.pathExtension.lowercased() == "jpg" }
+for sheet in oldSheets {
+    try FileManager.default.removeItem(at: sheet)
+}
+
 let thumbW: CGFloat = 220
 let thumbH: CGFloat = 330
 let labelH: CGFloat = 28
@@ -52,9 +58,12 @@ func saveJPEG(_ image: NSImage, to url: URL) throws {
     try jpeg.write(to: url)
 }
 
-for sheetIndex in 0..<2 {
-    let start = sheetIndex * 25
-    let slice = Array(files[start..<min(start + 25, files.count)])
+let imagesPerSheet = cols * rows
+let sheetCount = Int(ceil(Double(files.count) / Double(imagesPerSheet)))
+
+for sheetIndex in 0..<sheetCount {
+    let start = sheetIndex * imagesPerSheet
+    let slice = Array(files[start..<min(start + imagesPerSheet, files.count)])
     let canvas = NSImage(size: NSSize(width: sheetW, height: sheetH))
     canvas.lockFocus()
     NSColor(calibratedRed: 0.05, green: 0.06, blue: 0.07, alpha: 1).setFill()

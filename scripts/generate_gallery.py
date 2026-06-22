@@ -4,6 +4,15 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 IMAGES = sorted((ROOT / "images").glob("bini_body_*.png"))
+CONTACT_SHEETS = sorted((ROOT / "contact_sheets").glob("contact_sheet_*.jpg"))
+
+
+def status_for(image: Path) -> str:
+    if (ROOT / "selected" / image.name).exists():
+        return "selected"
+    if (ROOT / "rejected" / image.name).exists():
+        return "rejected"
+    return "candidate"
 
 
 def main():
@@ -11,8 +20,16 @@ def main():
         f'''        <a class="card" href="images/{image.name}" target="_blank" rel="noopener">
           <img src="images/{image.name}" alt="{image.name}" loading="lazy">
           <span>{image.name}</span>
+          <em>{status_for(image)}</em>
         </a>'''
         for image in IMAGES
+    )
+    sheets = "\n".join(
+        f'''      <a class="sheet" href="contact_sheets/{sheet.name}" target="_blank" rel="noopener">
+        <img src="contact_sheets/{sheet.name}" alt="{sheet.stem.replace("_", " ")}">
+        <span>{sheet.name}</span>
+      </a>'''
+        for sheet in CONTACT_SHEETS
     )
 
     html = f"""<!doctype html>
@@ -109,6 +126,15 @@ def main():
       overflow-wrap: anywhere;
       border-top: 1px solid var(--line);
     }}
+    .card em {{
+      display: block;
+      padding: 0 10px 9px;
+      color: var(--muted);
+      font-size: 11px;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }}
     @media (max-width: 520px) {{
       main {{ padding-left: 10px; padding-right: 10px; }}
       .grid {{ grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }}
@@ -119,18 +145,11 @@ def main():
 <body>
   <header>
     <h1>Bini Body LoRA Review Gallery</h1>
-    <p class="meta">50 generated training images for <code>bk_bini_teen</code>. Click any image for full size.</p>
+    <p class="meta">{len(IMAGES)} generated training candidates for <code>bk_bini_teen</code>. Click any image for full size.</p>
   </header>
   <main>
     <section class="contact-sheets" aria-label="Contact sheets">
-      <a class="sheet" href="contact_sheets/contact_sheet_001.jpg" target="_blank" rel="noopener">
-        <img src="contact_sheets/contact_sheet_001.jpg" alt="Contact sheet 001">
-        <span>contact_sheet_001.jpg · images 001-025</span>
-      </a>
-      <a class="sheet" href="contact_sheets/contact_sheet_002.jpg" target="_blank" rel="noopener">
-        <img src="contact_sheets/contact_sheet_002.jpg" alt="Contact sheet 002">
-        <span>contact_sheet_002.jpg · images 026-050</span>
-      </a>
+{sheets}
     </section>
     <section class="grid" aria-label="Image gallery">
 {cards}
