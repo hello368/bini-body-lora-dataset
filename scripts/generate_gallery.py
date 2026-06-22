@@ -4,8 +4,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TRAINING_IMAGES = sorted((ROOT / "images").glob("bini_body_*.png"))
+NEEDS_FIX_IMAGES = sorted((ROOT / "needs_fix").glob("bini_body_*.png"))
 REJECTED_IMAGES = sorted((ROOT / "rejected").glob("bini_body_*.png"))
 CONTACT_SHEETS = sorted((ROOT / "contact_sheets").glob("contact_sheet_*.jpg"))
+SELECTED_SHEET = ROOT / "contact_sheets" / "selected_contact_sheet.jpg"
 
 
 def cards_for(images: list[Path], folder: str, status: str) -> str:
@@ -21,7 +23,14 @@ def cards_for(images: list[Path], folder: str, status: str) -> str:
 
 def main():
     selected_cards = cards_for(TRAINING_IMAGES, "images", "selected")
+    needs_fix_cards = cards_for(NEEDS_FIX_IMAGES, "needs_fix", "needs fix")
     rejected_cards = cards_for(REJECTED_IMAGES, "rejected", "rejected")
+    selected_sheet = ""
+    if SELECTED_SHEET.exists():
+        selected_sheet = f'''      <a class="sheet" href="contact_sheets/{SELECTED_SHEET.name}" target="_blank" rel="noopener">
+        <img src="contact_sheets/{SELECTED_SHEET.name}" alt="selected contact sheet">
+        <span>{SELECTED_SHEET.name} · final selected set</span>
+      </a>'''
     sheets = "\n".join(
         f'''      <a class="sheet" href="contact_sheets/{sheet.name}" target="_blank" rel="noopener">
         <img src="contact_sheets/{sheet.name}" alt="{sheet.stem.replace("_", " ")}">
@@ -109,6 +118,17 @@ def main():
       line-height: 1.2;
       letter-spacing: 0;
     }}
+    details {{
+      border-top: 1px solid var(--line);
+      padding-top: 18px;
+    }}
+    summary {{
+      cursor: pointer;
+      color: var(--text);
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }}
     .card {{
       display: block;
       overflow: hidden;
@@ -156,20 +176,26 @@ def main():
   </header>
   <main>
     <section class="contact-sheets" aria-label="Contact sheets">
-{sheets}
+{selected_sheet}
     </section>
     <section aria-label="Selected images">
-      <h2>Selected Training Images</h2>
+      <h2>FINAL SELECTED TRAINING SET</h2>
       <div class="grid">
 {selected_cards}
       </div>
     </section>
-    <section aria-label="Rejected images">
-      <h2>Rejected Images</h2>
+    <details aria-label="Needs fix images">
+      <summary>NEEDS FIX: 008, 012, 036, 041, 048</summary>
+      <div class="grid">
+{needs_fix_cards}
+      </div>
+    </details>
+    <details aria-label="Rejected images">
+      <summary>REJECTED: 001-007, 009-011, 013-025</summary>
       <div class="grid">
 {rejected_cards}
       </div>
-    </section>
+    </details>
   </main>
 </body>
 </html>
@@ -177,7 +203,8 @@ def main():
     (ROOT / "index.html").write_text(html, encoding="utf-8")
     print(
         f"Wrote {ROOT / 'index.html'} with "
-        f"{len(TRAINING_IMAGES)} selected and {len(REJECTED_IMAGES)} rejected images"
+        f"{len(TRAINING_IMAGES)} selected, {len(NEEDS_FIX_IMAGES)} needs-fix, "
+        f"and {len(REJECTED_IMAGES)} rejected images"
     )
 
 

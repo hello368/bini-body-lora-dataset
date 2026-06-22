@@ -77,6 +77,17 @@
       line-height: 1.2;
       letter-spacing: 0;
     }
+    details {
+      border-top: 1px solid var(--line);
+      padding-top: 18px;
+    }
+    summary {
+      cursor: pointer;
+      color: var(--text);
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
     .card {
       display: block;
       overflow: hidden;
@@ -124,21 +135,13 @@
   </header>
   <main>
     <section class="contact-sheets" aria-label="Contact sheets">
-      <a class="sheet" href="contact_sheets/contact_sheet_001.jpg" target="_blank" rel="noopener">
-        <img src="contact_sheets/contact_sheet_001.jpg" alt="contact sheet 001">
-        <span>contact_sheet_001.jpg</span>
-      </a>
-      <a class="sheet" href="contact_sheets/contact_sheet_002.jpg" target="_blank" rel="noopener">
-        <img src="contact_sheets/contact_sheet_002.jpg" alt="contact sheet 002">
-        <span>contact_sheet_002.jpg</span>
-      </a>
-      <a class="sheet" href="contact_sheets/contact_sheet_003.jpg" target="_blank" rel="noopener">
-        <img src="contact_sheets/contact_sheet_003.jpg" alt="contact sheet 003">
-        <span>contact_sheet_003.jpg</span>
+      <a class="sheet" href="contact_sheets/selected_contact_sheet.jpg" target="_blank" rel="noopener">
+        <img src="contact_sheets/selected_contact_sheet.jpg" alt="selected contact sheet">
+        <span>selected_contact_sheet.jpg · final selected set</span>
       </a>
     </section>
     <section aria-label="Selected images">
-      <h2>Selected Training Images</h2>
+      <h2>FINAL SELECTED TRAINING SET</h2>
       <div class="grid">
         <a class="card" href="images/bini_body_026.png" target="_blank" rel="noopener">
           <img src="images/bini_body_026.png" alt="bini_body_026.png" loading="lazy">
@@ -402,8 +405,38 @@
         </a>
       </div>
     </section>
-    <section aria-label="Rejected images">
-      <h2>Rejected Images</h2>
+    <details aria-label="Needs fix images">
+      <summary>NEEDS FIX: 008, 012, 036, 041, 048</summary>
+      <div class="grid">
+        <a class="card" href="needs_fix/bini_body_008.png" target="_blank" rel="noopener">
+          <img src="needs_fix/bini_body_008.png" alt="bini_body_008.png" loading="lazy">
+          <span>bini_body_008.png</span>
+          <em>needs fix</em>
+        </a>
+        <a class="card" href="needs_fix/bini_body_012.png" target="_blank" rel="noopener">
+          <img src="needs_fix/bini_body_012.png" alt="bini_body_012.png" loading="lazy">
+          <span>bini_body_012.png</span>
+          <em>needs fix</em>
+        </a>
+        <a class="card" href="needs_fix/bini_body_036.png" target="_blank" rel="noopener">
+          <img src="needs_fix/bini_body_036.png" alt="bini_body_036.png" loading="lazy">
+          <span>bini_body_036.png</span>
+          <em>needs fix</em>
+        </a>
+        <a class="card" href="needs_fix/bini_body_041.png" target="_blank" rel="noopener">
+          <img src="needs_fix/bini_body_041.png" alt="bini_body_041.png" loading="lazy">
+          <span>bini_body_041.png</span>
+          <em>needs fix</em>
+        </a>
+        <a class="card" href="needs_fix/bini_body_048.png" target="_blank" rel="noopener">
+          <img src="needs_fix/bini_body_048.png" alt="bini_body_048.png" loading="lazy">
+          <span>bini_body_048.png</span>
+          <em>needs fix</em>
+        </a>
+      </div>
+    </details>
+    <details aria-label="Rejected images">
+      <summary>REJECTED: 001-007, 009-011, 013-025</summary>
       <div class="grid">
         <a class="card" href="rejected/bini_body_001.png" target="_blank" rel="noopener">
           <img src="rejected/bini_body_001.png" alt="bini_body_001.png" loading="lazy">
@@ -521,7 +554,7 @@
           <em>rejected</em>
         </a>
       </div>
-    </section>
+    </details>
   </main>
 </body>
 </html>
