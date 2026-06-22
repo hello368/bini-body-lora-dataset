@@ -1,0 +1,366 @@
+[
+  {
+    "id": "026",
+    "image": "training/selected_dataset/bini_body_026.png",
+    "caption": "training/selected_dataset/bini_body_026.txt",
+    "source_image": "images/bini_body_026.png",
+    "source_caption": "captions/bini_body_026.txt"
+  },
+  {
+    "id": "027",
+    "image": "training/selected_dataset/bini_body_027.png",
+    "caption": "training/selected_dataset/bini_body_027.txt",
+    "source_image": "images/bini_body_027.png",
+    "source_caption": "captions/bini_body_027.txt"
+  },
+  {
+    "id": "028",
+    "image": "training/selected_dataset/bini_body_028.png",
+    "caption": "training/selected_dataset/bini_body_028.txt",
+    "source_image": "images/bini_body_028.png",
+    "source_caption": "captions/bini_body_028.txt"
+  },
+  {
+    "id": "029",
+    "image": "training/selected_dataset/bini_body_029.png",
+    "caption": "training/selected_dataset/bini_body_029.txt",
+    "source_image": "images/bini_body_029.png",
+    "source_caption": "captions/bini_body_029.txt"
+  },
+  {
+    "id": "030",
+    "image": "training/selected_dataset/bini_body_030.png",
+    "caption": "training/selected_dataset/bini_body_030.txt",
+    "source_image": "images/bini_body_030.png",
+    "source_caption": "captions/bini_body_030.txt"
+  },
+  {
+    "id": "031",
+    "image": "training/selected_dataset/bini_body_031.png",
+    "caption": "training/selected_dataset/bini_body_031.txt",
+    "source_image": "images/bini_body_031.png",
+    "source_caption": "captions/bini_body_031.txt"
+  },
+  {
+    "id": "032",
+    "image": "training/selected_dataset/bini_body_032.png",
+    "caption": "training/selected_dataset/bini_body_032.txt",
+    "source_image": "images/bini_body_032.png",
+    "source_caption": "captions/bini_body_032.txt"
+  },
+  {
+    "id": "033",
+    "image": "training/selected_dataset/bini_body_033.png",
+    "caption": "training/selected_dataset/bini_body_033.txt",
+    "source_image": "images/bini_body_033.png",
+    "source_caption": "captions/bini_body_033.txt"
+  },
+  {
+    "id": "034",
+    "image": "training/selected_dataset/bini_body_034.png",
+    "caption": "training/selected_dataset/bini_body_034.txt",
+    "source_image": "images/bini_body_034.png",
+    "source_caption": "captions/bini_body_034.txt"
+  },
+  {
+    "id": "035",
+    "image": "training/selected_dataset/bini_body_035.png",
+    "caption": "training/selected_dataset/bini_body_035.txt",
+    "source_image": "images/bini_body_035.png",
+    "source_caption": "captions/bini_body_035.txt"
+  },
+  {
+    "id": "037",
+    "image": "training/selected_dataset/bini_body_037.png",
+    "caption": "training/selected_dataset/bini_body_037.txt",
+    "source_image": "images/bini_body_037.png",
+    "source_caption": "captions/bini_body_037.txt"
+  },
+  {
+    "id": "038",
+    "image": "training/selected_dataset/bini_body_038.png",
+    "caption": "training/selected_dataset/bini_body_038.txt",
+    "source_image": "images/bini_body_038.png",
+    "source_caption": "captions/bini_body_038.txt"
+  },
+  {
+    "id": "039",
+    "image": "training/selected_dataset/bini_body_039.png",
+    "caption": "training/selected_dataset/bini_body_039.txt",
+    "source_image": "images/bini_body_039.png",
+    "source_caption": "captions/bini_body_039.txt"
+  },
+  {
+    "id": "040",
+    "image": "training/selected_dataset/bini_body_040.png",
+    "caption": "training/selected_dataset/bini_body_040.txt",
+    "source_image": "images/bini_body_040.png",
+    "source_caption": "captions/bini_body_040.txt"
+  },
+  {
+    "id": "042",
+    "image": "training/selected_dataset/bini_body_042.png",
+    "caption": "training/selected_dataset/bini_body_042.txt",
+    "source_image": "images/bini_body_042.png",
+    "source_caption": "captions/bini_body_042.txt"
+  },
+  {
+    "id": "043",
+    "image": "training/selected_dataset/bini_body_043.png",
+    "caption": "training/selected_dataset/bini_body_043.txt",
+    "source_image": "images/bini_body_043.png",
+    "source_caption": "captions/bini_body_043.txt"
+  },
+  {
+    "id": "044",
+    "image": "training/selected_dataset/bini_body_044.png",
+    "caption": "training/selected_dataset/bini_body_044.txt",
+    "source_image": "images/bini_body_044.png",
+    "source_caption": "captions/bini_body_044.txt"
+  },
+  {
+    "id": "045",
+    "image": "training/selected_dataset/bini_body_045.png",
+    "caption": "training/selected_dataset/bini_body_045.txt",
+    "source_image": "images/bini_body_045.png",
+    "source_caption": "captions/bini_body_045.txt"
+  },
+  {
+    "id": "046",
+    "image": "training/selected_dataset/bini_body_046.png",
+    "caption": "training/selected_dataset/bini_body_046.txt",
+    "source_image": "images/bini_body_046.png",
+    "source_caption": "captions/bini_body_046.txt"
+  },
+  {
+    "id": "047",
+    "image": "training/selected_dataset/bini_body_047.png",
+    "caption": "training/selected_dataset/bini_body_047.txt",
+    "source_image": "images/bini_body_047.png",
+    "source_caption": "captions/bini_body_047.txt"
+  },
+  {
+    "id": "049",
+    "image": "training/selected_dataset/bini_body_049.png",
+    "caption": "training/selected_dataset/bini_body_049.txt",
+    "source_image": "images/bini_body_049.png",
+    "source_caption": "captions/bini_body_049.txt"
+  },
+  {
+    "id": "050",
+    "image": "training/selected_dataset/bini_body_050.png",
+    "caption": "training/selected_dataset/bini_body_050.txt",
+    "source_image": "images/bini_body_050.png",
+    "source_caption": "captions/bini_body_050.txt"
+  },
+  {
+    "id": "051",
+    "image": "training/selected_dataset/bini_body_051.png",
+    "caption": "training/selected_dataset/bini_body_051.txt",
+    "source_image": "images/bini_body_051.png",
+    "source_caption": "captions/bini_body_051.txt"
+  },
+  {
+    "id": "052",
+    "image": "training/selected_dataset/bini_body_052.png",
+    "caption": "training/selected_dataset/bini_body_052.txt",
+    "source_image": "images/bini_body_052.png",
+    "source_caption": "captions/bini_body_052.txt"
+  },
+  {
+    "id": "053",
+    "image": "training/selected_dataset/bini_body_053.png",
+    "caption": "training/selected_dataset/bini_body_053.txt",
+    "source_image": "images/bini_body_053.png",
+    "source_caption": "captions/bini_body_053.txt"
+  },
+  {
+    "id": "054",
+    "image": "training/selected_dataset/bini_body_054.png",
+    "caption": "training/selected_dataset/bini_body_054.txt",
+    "source_image": "images/bini_body_054.png",
+    "source_caption": "captions/bini_body_054.txt"
+  },
+  {
+    "id": "055",
+    "image": "training/selected_dataset/bini_body_055.png",
+    "caption": "training/selected_dataset/bini_body_055.txt",
+    "source_image": "images/bini_body_055.png",
+    "source_caption": "captions/bini_body_055.txt"
+  },
+  {
+    "id": "056",
+    "image": "training/selected_dataset/bini_body_056.png",
+    "caption": "training/selected_dataset/bini_body_056.txt",
+    "source_image": "images/bini_body_056.png",
+    "source_caption": "captions/bini_body_056.txt"
+  },
+  {
+    "id": "057",
+    "image": "training/selected_dataset/bini_body_057.png",
+    "caption": "training/selected_dataset/bini_body_057.txt",
+    "source_image": "images/bini_body_057.png",
+    "source_caption": "captions/bini_body_057.txt"
+  },
+  {
+    "id": "058",
+    "image": "training/selected_dataset/bini_body_058.png",
+    "caption": "training/selected_dataset/bini_body_058.txt",
+    "source_image": "images/bini_body_058.png",
+    "source_caption": "captions/bini_body_058.txt"
+  },
+  {
+    "id": "059",
+    "image": "training/selected_dataset/bini_body_059.png",
+    "caption": "training/selected_dataset/bini_body_059.txt",
+    "source_image": "images/bini_body_059.png",
+    "source_caption": "captions/bini_body_059.txt"
+  },
+  {
+    "id": "060",
+    "image": "training/selected_dataset/bini_body_060.png",
+    "caption": "training/selected_dataset/bini_body_060.txt",
+    "source_image": "images/bini_body_060.png",
+    "source_caption": "captions/bini_body_060.txt"
+  },
+  {
+    "id": "061",
+    "image": "training/selected_dataset/bini_body_061.png",
+    "caption": "training/selected_dataset/bini_body_061.txt",
+    "source_image": "images/bini_body_061.png",
+    "source_caption": "captions/bini_body_061.txt"
+  },
+  {
+    "id": "062",
+    "image": "training/selected_dataset/bini_body_062.png",
+    "caption": "training/selected_dataset/bini_body_062.txt",
+    "source_image": "images/bini_body_062.png",
+    "source_caption": "captions/bini_body_062.txt"
+  },
+  {
+    "id": "063",
+    "image": "training/selected_dataset/bini_body_063.png",
+    "caption": "training/selected_dataset/bini_body_063.txt",
+    "source_image": "images/bini_body_063.png",
+    "source_caption": "captions/bini_body_063.txt"
+  },
+  {
+    "id": "064",
+    "image": "training/selected_dataset/bini_body_064.png",
+    "caption": "training/selected_dataset/bini_body_064.txt",
+    "source_image": "images/bini_body_064.png",
+    "source_caption": "captions/bini_body_064.txt"
+  },
+  {
+    "id": "065",
+    "image": "training/selected_dataset/bini_body_065.png",
+    "caption": "training/selected_dataset/bini_body_065.txt",
+    "source_image": "images/bini_body_065.png",
+    "source_caption": "captions/bini_body_065.txt"
+  },
+  {
+    "id": "066",
+    "image": "training/selected_dataset/bini_body_066.png",
+    "caption": "training/selected_dataset/bini_body_066.txt",
+    "source_image": "images/bini_body_066.png",
+    "source_caption": "captions/bini_body_066.txt"
+  },
+  {
+    "id": "067",
+    "image": "training/selected_dataset/bini_body_067.png",
+    "caption": "training/selected_dataset/bini_body_067.txt",
+    "source_image": "images/bini_body_067.png",
+    "source_caption": "captions/bini_body_067.txt"
+  },
+  {
+    "id": "068",
+    "image": "training/selected_dataset/bini_body_068.png",
+    "caption": "training/selected_dataset/bini_body_068.txt",
+    "source_image": "images/bini_body_068.png",
+    "source_caption": "captions/bini_body_068.txt"
+  },
+  {
+    "id": "069",
+    "image": "training/selected_dataset/bini_body_069.png",
+    "caption": "training/selected_dataset/bini_body_069.txt",
+    "source_image": "images/bini_body_069.png",
+    "source_caption": "captions/bini_body_069.txt"
+  },
+  {
+    "id": "070",
+    "image": "training/selected_dataset/bini_body_070.png",
+    "caption": "training/selected_dataset/bini_body_070.txt",
+    "source_image": "images/bini_body_070.png",
+    "source_caption": "captions/bini_body_070.txt"
+  },
+  {
+    "id": "071",
+    "image": "training/selected_dataset/bini_body_071.png",
+    "caption": "training/selected_dataset/bini_body_071.txt",
+    "source_image": "images/bini_body_071.png",
+    "source_caption": "captions/bini_body_071.txt"
+  },
+  {
+    "id": "072",
+    "image": "training/selected_dataset/bini_body_072.png",
+    "caption": "training/selected_dataset/bini_body_072.txt",
+    "source_image": "images/bini_body_072.png",
+    "source_caption": "captions/bini_body_072.txt"
+  },
+  {
+    "id": "073",
+    "image": "training/selected_dataset/bini_body_073.png",
+    "caption": "training/selected_dataset/bini_body_073.txt",
+    "source_image": "images/bini_body_073.png",
+    "source_caption": "captions/bini_body_073.txt"
+  },
+  {
+    "id": "074",
+    "image": "training/selected_dataset/bini_body_074.png",
+    "caption": "training/selected_dataset/bini_body_074.txt",
+    "source_image": "images/bini_body_074.png",
+    "source_caption": "captions/bini_body_074.txt"
+  },
+  {
+    "id": "075",
+    "image": "training/selected_dataset/bini_body_075.png",
+    "caption": "training/selected_dataset/bini_body_075.txt",
+    "source_image": "images/bini_body_075.png",
+    "source_caption": "captions/bini_body_075.txt"
+  },
+  {
+    "id": "076",
+    "image": "training/selected_dataset/bini_body_076.png",
+    "caption": "training/selected_dataset/bini_body_076.txt",
+    "source_image": "images/bini_body_076.png",
+    "source_caption": "captions/bini_body_076.txt"
+  },
+  {
+    "id": "077",
+    "image": "training/selected_dataset/bini_body_077.png",
+    "caption": "training/selected_dataset/bini_body_077.txt",
+    "source_image": "images/bini_body_077.png",
+    "source_caption": "captions/bini_body_077.txt"
+  },
+  {
+    "id": "078",
+    "image": "training/selected_dataset/bini_body_078.png",
+    "caption": "training/selected_dataset/bini_body_078.txt",
+    "source_image": "images/bini_body_078.png",
+    "source_caption": "captions/bini_body_078.txt"
+  },
+  {
+    "id": "079",
+    "image": "training/selected_dataset/bini_body_079.png",
+    "caption": "training/selected_dataset/bini_body_079.txt",
+    "source_image": "images/bini_body_079.png",
+    "source_caption": "captions/bini_body_079.txt"
+  },
+  {
+    "id": "080",
+    "image": "training/selected_dataset/bini_body_080.png",
+    "caption": "training/selected_dataset/bini_body_080.txt",
+    "source_image": "images/bini_body_080.png",
+    "source_caption": "captions/bini_body_080.txt"
+  }
+]

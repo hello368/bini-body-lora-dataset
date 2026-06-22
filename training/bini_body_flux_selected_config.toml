@@ -1,0 +1,36 @@
+# Bini Body LoRA selected-only training config.
+# This file documents the exact selected-only FLUX LoRA settings used by
+# training/train_bini_body_flux_selected.sh.
+
+model_name = "bini_body_flux_lora_selected_v1"
+trigger_word = "bk_bini_teen"
+train_data_dir = "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/training/selected_dataset"
+output_dir = "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/output"
+logging_dir = "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/logs"
+
+selected_image_count = 52
+caption_extension = ".txt"
+resolution = "1024,1024"
+enable_bucket = true
+min_bucket_reso = 512
+max_bucket_reso = 1536
+bucket_reso_steps = 64
+
+pretrained_model_name_or_path = "/workspace/flux-lora/training/models/flux1-dev-fp8-bfl-training.safetensors"
+clip_l = "/workspace/flux-lora/ComfyUI/models/clip/clip_l.safetensors"
+t5xxl = "/workspace/flux-lora/ComfyUI/models/clip/t5xxl_fp8_e4m3fn.safetensors"
+ae = "/workspace/flux-lora/ComfyUI/models/vae/ae.safetensors"
+
+network_module = "networks.lora_flux"
+network_dim = 16
+network_alpha = 16
+train_batch_size = 1
+max_train_steps = 1600
+learning_rate = 0.00008
+optimizer_type = "AdamW8bit"
+mixed_precision = "bf16"
+save_precision = "bf16"
+seed = 20260622
+
+excluded_directories = ["needs_fix", "rejected", "reviews", "contact_sheets", "selected"]
+notes = "Only training/selected_dataset is passed to kohya. needs_fix and rejected are never used for training."
