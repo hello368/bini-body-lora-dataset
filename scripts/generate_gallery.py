@@ -3,25 +3,25 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-IMAGES = sorted((ROOT / "images").glob("bini_body_*.png"))
+TRAINING_IMAGES = sorted((ROOT / "images").glob("bini_body_*.png"))
+REJECTED_IMAGES = sorted((ROOT / "rejected").glob("bini_body_*.png"))
 CONTACT_SHEETS = sorted((ROOT / "contact_sheets").glob("contact_sheet_*.jpg"))
 
 
-def status_for(image: Path) -> str:
-    if (ROOT / "selected" / image.name).exists():
-        return "selected"
-    return "candidate"
+def cards_for(images: list[Path], folder: str, status: str) -> str:
+    return "\n".join(
+        f'''        <a class="card" href="{folder}/{image.name}" target="_blank" rel="noopener">
+          <img src="{folder}/{image.name}" alt="{image.name}" loading="lazy">
+          <span>{image.name}</span>
+          <em>{status}</em>
+        </a>'''
+        for image in images
+    )
 
 
 def main():
-    cards = "\n".join(
-        f'''        <a class="card" href="images/{image.name}" target="_blank" rel="noopener">
-          <img src="images/{image.name}" alt="{image.name}" loading="lazy">
-          <span>{image.name}</span>
-          <em>{status_for(image)}</em>
-        </a>'''
-        for image in IMAGES
-    )
+    selected_cards = cards_for(TRAINING_IMAGES, "images", "selected")
+    rejected_cards = cards_for(REJECTED_IMAGES, "rejected", "rejected")
     sheets = "\n".join(
         f'''      <a class="sheet" href="contact_sheets/{sheet.name}" target="_blank" rel="noopener">
         <img src="contact_sheets/{sheet.name}" alt="{sheet.stem.replace("_", " ")}">
@@ -100,6 +100,15 @@ def main():
       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
       gap: 14px;
     }}
+    section + section {{
+      margin-top: 34px;
+    }}
+    h2 {{
+      margin: 0 0 14px;
+      font-size: 18px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }}
     .card {{
       display: block;
       overflow: hidden;
@@ -143,21 +152,33 @@ def main():
 <body>
   <header>
     <h1>Bini Body LoRA Review Gallery</h1>
-    <p class="meta">{len(IMAGES)} generated training candidates for <code>bk_bini_teen</code>. Click any image for full size.</p>
+    <p class="meta">{len(TRAINING_IMAGES)} selected training images for <code>bk_bini_teen</code>. Click any image for full size.</p>
   </header>
   <main>
     <section class="contact-sheets" aria-label="Contact sheets">
 {sheets}
     </section>
-    <section class="grid" aria-label="Image gallery">
-{cards}
+    <section aria-label="Selected images">
+      <h2>Selected Training Images</h2>
+      <div class="grid">
+{selected_cards}
+      </div>
+    </section>
+    <section aria-label="Rejected images">
+      <h2>Rejected Images</h2>
+      <div class="grid">
+{rejected_cards}
+      </div>
     </section>
   </main>
 </body>
 </html>
 """
     (ROOT / "index.html").write_text(html, encoding="utf-8")
-    print(f"Wrote {ROOT / 'index.html'} with {len(IMAGES)} images")
+    print(
+        f"Wrote {ROOT / 'index.html'} with "
+        f"{len(TRAINING_IMAGES)} selected and {len(REJECTED_IMAGES)} rejected images"
+    )
 
 
 if __name__ == "__main__":
