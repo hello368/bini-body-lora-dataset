@@ -6,7 +6,6 @@ ROOT = Path(__file__).resolve().parents[1]
 TRAINING_IMAGES = sorted((ROOT / "images").glob("bini_body_*.png"))
 NEEDS_FIX_IMAGES = sorted((ROOT / "needs_fix").glob("bini_body_*.png"))
 REJECTED_IMAGES = sorted((ROOT / "rejected").glob("bini_body_*.png"))
-CONTACT_SHEETS = sorted((ROOT / "contact_sheets").glob("contact_sheet_*.jpg"))
 SELECTED_SHEET = ROOT / "contact_sheets" / "selected_contact_sheet.jpg"
 
 
@@ -31,20 +30,12 @@ def main():
         <img src="contact_sheets/{SELECTED_SHEET.name}" alt="selected contact sheet">
         <span>{SELECTED_SHEET.name} · final selected set</span>
       </a>'''
-    sheets = "\n".join(
-        f'''      <a class="sheet" href="contact_sheets/{sheet.name}" target="_blank" rel="noopener">
-        <img src="contact_sheets/{sheet.name}" alt="{sheet.stem.replace("_", " ")}">
-        <span>{sheet.name}</span>
-      </a>'''
-        for sheet in CONTACT_SHEETS
-    )
-
     html = f"""<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bini Body LoRA Review Gallery</title>
+  <title>Bini Body LoRA Final Selected Training Set</title>
   <style>
     :root {{
       color-scheme: dark;
@@ -171,7 +162,7 @@ def main():
 </head>
 <body>
   <header>
-    <h1>Bini Body LoRA Review Gallery</h1>
+    <h1>Bini Body LoRA Final Selected Training Set</h1>
     <p class="meta">{len(TRAINING_IMAGES)} selected training images for <code>bk_bini_teen</code>. Click any image for full size.</p>
   </header>
   <main>
@@ -184,14 +175,14 @@ def main():
 {selected_cards}
       </div>
     </section>
-    <details aria-label="Needs fix images">
+    <details aria-label="Needs fix candidate images">
       <summary>NEEDS FIX: 008, 012, 036, 041, 048</summary>
       <div class="grid">
 {needs_fix_cards}
       </div>
     </details>
-    <details aria-label="Rejected images">
-      <summary>REJECTED: 001-007, 009-011, 013-025</summary>
+    <details aria-label="Rejected candidate images">
+      <summary>REJECTED / CANDIDATE IMAGES: 001-007, 009-011, 013-025</summary>
       <div class="grid">
 {rejected_cards}
       </div>
