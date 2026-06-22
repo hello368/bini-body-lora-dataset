@@ -17,7 +17,7 @@ Selected full-body training dataset for the `bk_bini_teen` character.
 
 ## Selected Training IDs
 
-026-035, 037-040, 042-047, 049-080
+026-035, 037-040, 042-047, 049-128
 
 ## Training Rule
 

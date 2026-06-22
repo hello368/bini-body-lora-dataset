@@ -16,8 +16,8 @@ python3 "$TRAIN_ROOT/scripts/prepare_selected_training_dataset.py" --root "$TRAI
 
 pair_count="$(find "$TRAIN_DATA" -maxdepth 1 -name 'bini_body_*.png' | wc -l)"
 caption_count="$(find "$TRAIN_DATA" -maxdepth 1 -name 'bini_body_*.txt' | wc -l)"
-if [ "$pair_count" -ne 52 ] || [ "$caption_count" -ne 52 ]; then
-  echo "Expected 52 selected images and captions in $TRAIN_DATA, got images=$pair_count captions=$caption_count" >&2
+if [ "$pair_count" -ne 100 ] || [ "$caption_count" -ne 100 ]; then
+  echo "Expected 100 selected images and captions in $TRAIN_DATA, got images=$pair_count captions=$caption_count" >&2
   exit 1
 fi
 
@@ -56,7 +56,7 @@ python flux_train_network.py \
   --max_bucket_reso 1536 \
   --bucket_reso_steps 64 \
   --train_batch_size 1 \
-  --max_train_steps 1600 \
+  --max_train_steps 2400 \
   --learning_rate 8e-5 \
   --optimizer_type AdamW8bit \
   --network_module networks.lora_flux \

@@ -8,7 +8,7 @@ train_data_dir = "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_
 output_dir = "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/output"
 logging_dir = "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/logs"
 
-selected_image_count = 52
+selected_image_count = 100
 caption_extension = ".txt"
 resolution = "1024,1024"
 enable_bucket = true
@@ -25,7 +25,7 @@ network_module = "networks.lora_flux"
 network_dim = 16
 network_alpha = 16
 train_batch_size = 1
-max_train_steps = 1600
+max_train_steps = 2400
 learning_rate = 0.00008
 optimizer_type = "AdamW8bit"
 mixed_precision = "bf16"
