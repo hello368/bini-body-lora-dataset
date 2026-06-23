@@ -1,43 +1,48 @@
-# Bini Body LoRA Final Selected Training Set
+# Bini Body LoRA Production Dataset
 
-Selected full-body training dataset for the `bk_bini_teen` character.
+Production dataset and review gallery for Bini Body LoRA development.
 
 ## Contents
 
-- `images/`: final selected training images only
-- `captions/`: matching `.txt` captions for final selected images only
-- `training/selected_dataset/`: Kohya-ready sidecar dataset generated from selected images only
-- `training/bini_body_flux_selected_config.toml`: selected-only training settings
-- `training/train_bini_body_flux_selected.sh`: RunPod/Kohya FLUX LoRA training command
-- `needs_fix/` and `rejected/`: review history only; do not train from these folders
+- `datasets/bini_body_selected/`: production Body LoRA training candidates
+- `datasets/bini_body_gold/`: manually promoted gold set
+- `datasets/bini_body_needs_fix/`: excluded from training
+- `datasets/bini_body_rejected/`: excluded from training
+- `images/`: final selected gallery images for GitHub Pages
+- `captions/`: legacy selected captions
+- `training/configs/`: AI Toolkit/Kohya experiment configs
+- `training/ai_toolkit/`: AI Toolkit production trainer notes
+- `training/kohya/`: Kohya/sd-scripts production trainer notes
+- `evaluation/body_lora_tests/`: fixed evaluation prompt set
+- `evaluation/comparison_grids/`: checkpoint comparison sheets
+- `reviews/`: audit, training, and evaluation reports
 
-## Character Trigger
+## Trigger Strategy
 
-`bk_bini_teen`
+- Face LoRA trigger: `bk_bini_teen`
+- Body LoRA trigger: `bk_bini_body`
+- Braces/Mobility LoRA trigger: `bk_bini_braces`
 
-## Selected Training IDs
+Do not use `bk_bini_teen` as the main trigger in Body LoRA captions.
 
-026-035, 037-040, 042-047, 049-128
+## Production Workflow
 
-## Training Rule
+1. Keep GitHub as the source of truth.
+2. Use ComfyUI for dataset generation, pose-controlled generation, evaluation, contact sheets, and Pages review.
+3. Use AI Toolkit or Kohya/sd-scripts on RunPod for actual LoRA training.
+4. Train Body LoRA only from `datasets/bini_body_selected/` or manually promoted `datasets/bini_body_gold/`.
+5. Do not train on `needs_fix/`, `rejected/`, `datasets/bini_body_needs_fix/`, or `datasets/bini_body_rejected/`.
 
-Use only `images/`, `captions/`, or the generated `training/selected_dataset/`.
-Do not train on `needs_fix/` or `rejected/`.
+## Audit
 
-Prepare the sidecar training folder:
+Run before training:
 
 ```bash
-python3 scripts/prepare_selected_training_dataset.py
+python3 scripts/audit_bini_dataset.py
 ```
 
-Run FLUX LoRA training on RunPod:
+## Training Experiments
 
-```bash
-bash training/train_bini_body_flux_selected.sh
-```
-
-## Notes
-
-- Generated with the existing Bini Face LoRA.
-- Intended for Bini Body LoRA training.
-- Captions include the trigger and selected body/uniform/leg-brace descriptors.
+- `bk_bini_body_v1_conservative`
+- `bk_bini_body_v1_standard`
+- `bk_bini_braces_v1`

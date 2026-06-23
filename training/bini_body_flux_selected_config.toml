@@ -1,10 +1,11 @@
-# Bini Body LoRA selected-only training config.
-# This file documents the exact selected-only FLUX LoRA settings used by
+# Bini Body LoRA production selected-only training config.
+# This file documents the production FLUX LoRA settings used by
 # training/train_bini_body_flux_selected.sh.
 
-model_name = "bini_body_flux_lora_selected_v1"
-trigger_word = "bk_bini_teen"
-train_data_dir = "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/training/selected_dataset"
+model_name = "bk_bini_body_v1"
+trigger_word = "bk_bini_body"
+base_character_trigger = "bk_bini_teen"
+train_data_dir = "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/datasets/bini_body_selected"
 output_dir = "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/output"
 logging_dir = "/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora/logs"
 
@@ -28,9 +29,12 @@ train_batch_size = 1
 max_train_steps = 2400
 learning_rate = 0.00008
 optimizer_type = "AdamW8bit"
+train_text_encoder = false
+network_train_unet_only = true
 mixed_precision = "bf16"
 save_precision = "bf16"
 seed = 20260622
+save_every_n_steps = 250
 
-excluded_directories = ["needs_fix", "rejected", "reviews", "contact_sheets", "selected"]
-notes = "Only training/selected_dataset is passed to kohya. needs_fix and rejected are never used for training."
+excluded_directories = ["needs_fix", "rejected", "datasets/bini_body_needs_fix", "datasets/bini_body_rejected", "reviews", "contact_sheets", "selected"]
+notes = "Only datasets/bini_body_selected is passed to kohya. needs_fix and rejected partitions are never used for training. Body captions use bk_bini_body, not bk_bini_teen."

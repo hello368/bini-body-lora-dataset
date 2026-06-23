@@ -5,24 +5,38 @@ BASE=/workspace/flux-lora
 COMFY="$BASE/ComfyUI"
 KOHYA="$BASE/kohya_ss"
 TRAIN_ROOT=/workspace/kingdom_underfoot/datasets/characters/bk_bini_body_lora
-TRAIN_DATA="$TRAIN_ROOT/training/selected_dataset"
+TRAIN_DATA="$TRAIN_ROOT/datasets/bini_body_selected"
+KOHYA_TRAIN_PARENT="$TRAIN_ROOT/training/kohya_selected"
+KOHYA_TRAIN_DATA="$KOHYA_TRAIN_PARENT/1_bk_bini_body"
 OUT_DIR="$TRAIN_ROOT/output"
 LOG_DIR="$TRAIN_ROOT/logs"
-MODEL_NAME=bini_body_flux_lora_selected_v1
+MODEL_NAME=bk_bini_body_v1
 
-mkdir -p "$OUT_DIR" "$LOG_DIR" "$COMFY/models/loras/bk_bini_body"
+mkdir -p "$OUT_DIR" "$LOG_DIR" "$COMFY/models/loras/bk_bini_body" "$KOHYA_TRAIN_DATA"
 
-python3 "$TRAIN_ROOT/scripts/prepare_selected_training_dataset.py" --root "$TRAIN_ROOT"
+python3 "$TRAIN_ROOT/scripts/audit_bini_dataset.py"
 
 pair_count="$(find "$TRAIN_DATA" -maxdepth 1 -name 'bini_body_*.png' | wc -l)"
 caption_count="$(find "$TRAIN_DATA" -maxdepth 1 -name 'bini_body_*.txt' | wc -l)"
 if [ "$pair_count" -ne 100 ] || [ "$caption_count" -ne 100 ]; then
-  echo "Expected 100 selected images and captions in $TRAIN_DATA, got images=$pair_count captions=$caption_count" >&2
+  echo "Expected 100 production selected images and captions in $TRAIN_DATA, got images=$pair_count captions=$caption_count" >&2
   exit 1
 fi
 
 if find "$TRAIN_DATA" -maxdepth 1 \( -name 'bini_body_00[1-9].*' -o -name 'bini_body_01[0-9].*' -o -name 'bini_body_02[0-5].*' -o -name 'bini_body_036.*' -o -name 'bini_body_041.*' -o -name 'bini_body_048.*' \) | grep -q .; then
   echo "Rejected or needs_fix files found in selected training dataset." >&2
+  exit 1
+fi
+
+find "$KOHYA_TRAIN_DATA" -maxdepth 1 -type l -delete
+for image_path in "$TRAIN_DATA"/bini_body_*.png; do
+  base_name="$(basename "$image_path" .png)"
+  ln -sf "$image_path" "$KOHYA_TRAIN_DATA/$base_name.png"
+  ln -sf "$TRAIN_DATA/$base_name.txt" "$KOHYA_TRAIN_DATA/$base_name.txt"
+done
+
+if [ "$(find "$KOHYA_TRAIN_DATA" -maxdepth 1 -name 'bini_body_*.png' | wc -l)" -ne 100 ]; then
+  echo "Expected 100 images in Kohya train folder $KOHYA_TRAIN_DATA" >&2
   exit 1
 fi
 
@@ -45,7 +59,7 @@ python flux_train_network.py \
   --clip_l "$COMFY/models/clip/clip_l.safetensors" \
   --t5xxl "$COMFY/models/clip/t5xxl_fp8_e4m3fn.safetensors" \
   --ae "$COMFY/models/vae/ae.safetensors" \
-  --train_data_dir "$TRAIN_DATA" \
+  --train_data_dir "$KOHYA_TRAIN_PARENT" \
   --output_dir "$OUT_DIR" \
   --logging_dir "$LOG_DIR" \
   --output_name "$MODEL_NAME" \
@@ -62,6 +76,7 @@ python flux_train_network.py \
   --network_module networks.lora_flux \
   --network_dim 16 \
   --network_alpha 16 \
+  --network_train_unet_only \
   --mixed_precision bf16 \
   --save_precision bf16 \
   --gradient_checkpointing \
@@ -75,7 +90,7 @@ python flux_train_network.py \
   --model_prediction_type raw \
   --guidance_scale 1.0 \
   --seed 20260622 \
-  --save_every_n_steps 400 \
+  --save_every_n_steps 250 \
   --save_last_n_steps 3 \
   --max_data_loader_n_workers 1
 

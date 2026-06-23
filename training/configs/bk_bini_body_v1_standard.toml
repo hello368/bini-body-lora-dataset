@@ -1,0 +1,27 @@
+[experiment]
+name = "bk_bini_body_v1_standard"
+trainer = "kohya_or_ai_toolkit"
+trigger_word = "bk_bini_body"
+base_face_trigger = "bk_bini_teen"
+dataset = "datasets/bini_body_selected"
+output_dir = "training/outputs/bk_bini_body_v1_standard"
+
+[training]
+rank = 32
+alpha = 32
+max_train_steps = 2400
+recommended_step_range = "1800-2400"
+learning_rate = 0.0001
+train_text_encoder = false
+resolution = 1024
+save_every_n_steps = 250
+mixed_precision = "bf16"
+save_precision = "bf16"
+optimizer = "AdamW8bit"
+network_module = "networks.lora_flux"
+
+[rules]
+positive_trigger = "bk_bini_body"
+excluded_dirs = ["needs_fix", "rejected", "old candidates", "datasets/bini_body_needs_fix", "datasets/bini_body_rejected"]
+caption_policy = "Natural captions; do not use bk_bini_teen as the main body trigger."
+

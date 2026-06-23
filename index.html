@@ -68,6 +68,52 @@
       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
       gap: 14px;
     }
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 14px 0;
+    }
+    .stats span {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      padding: 8px 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .stats strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+    a {
+      color: #9fc7ff;
+    }
+    .experiment-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .experiment {
+      display: block;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      padding: 12px;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .experiment strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+    .experiment span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
     section + section {
       margin-top: 34px;
     }
@@ -131,9 +177,42 @@
 <body>
   <header>
     <h1>Bini Body LoRA Final Selected Training Set</h1>
-    <p class="meta">100 selected training images for <code>bk_bini_teen</code>. Click any image for full size.</p>
+    <p class="meta">100 production selected images for <code>bk_bini_body</code>. GitHub is the source of truth.</p>
   </header>
   <main>
+    <section aria-label="Production workflow">
+      <h2>BODY LORA PRODUCTION WORKFLOW</h2>
+      <p class="meta">ComfyUI: dataset generation, pose control, evaluation, contact sheets. Training: AI Toolkit or Kohya/sd-scripts on RunPod.</p>
+      <div class="stats">
+        <span>Selected: <strong>100</strong></span>
+        <span>Gold: <strong>0</strong></span>
+        <span>Needs fix: <strong>5</strong></span>
+        <span>Rejected: <strong>23</strong></span>
+      </div>
+      <p class="meta">Triggers: face <code>bk_bini_teen</code> · body <code>bk_bini_body</code> · braces <code>bk_bini_braces</code></p>
+      <p class="meta"><a href="reviews/dataset_audit.md">dataset_audit.md</a> · <a href="reviews/training_report.md">training_report.md</a> · <a href="reviews/evaluation_report.md">evaluation_report.md</a></p>
+    </section>
+    <section aria-label="Training experiments">
+      <h2>BODY LORA TRAINING EXPERIMENTS</h2>
+      <div class="experiment-grid">
+        <a class="experiment" href="training/configs/bk_bini_body_v1_conservative.toml"><strong>bk_bini_body_v1_conservative</strong><span>rank 16 · alpha 16 · 1200-1600 steps · text encoder off</span></a>
+        <a class="experiment" href="training/configs/bk_bini_body_v1_standard.toml"><strong>bk_bini_body_v1_standard</strong><span>rank 32 · alpha 32 · 1800-2400 steps · text encoder off initially</span></a>
+        <a class="experiment" href="training/configs/bk_bini_braces_v1.toml"><strong>bk_bini_braces_v1</strong><span>visible braces/crutches subset · rank 16 or 32 · 1200-1800 steps</span></a>
+      </div>
+      <div class="contact-sheets">
+
+      </div>
+    </section>
+    <section aria-label="Body LoRA v1 evaluation">
+      <h2>BODY LORA V1 EVALUATION</h2>
+      <p class="meta">LoRA: <code>bk_bini_body_v1.safetensors</code> · training set: 100 selected images · trigger: <code>bk_bini_body</code>. Use <code>bk_bini_teen</code> only when combining with the face LoRA at evaluation time.</p>
+      <div class="contact-sheets">
+
+      </div>
+      <div class="grid">
+
+      </div>
+    </section>
     <section class="contact-sheets" aria-label="Contact sheets">
       <a class="sheet" href="contact_sheets/selected_contact_sheet.jpg" target="_blank" rel="noopener">
         <img src="contact_sheets/selected_contact_sheet.jpg" alt="selected contact sheet">
