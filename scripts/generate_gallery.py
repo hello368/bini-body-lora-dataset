@@ -15,6 +15,9 @@ EVAL_IMAGES = sorted((ROOT / "evaluation" / "body_lora_v1").glob("body_lora_v1_e
 EVAL_SHEET = ROOT / "contact_sheets" / "body_lora_v1_evaluation_sheet.jpg"
 LORA_NAME = "bk_bini_body_v1.safetensors"
 COMPARISON_SHEETS = sorted((ROOT / "evaluation" / "comparison_grids").glob("*.jpg"))
+CONSERVATIVE_IMAGES = sorted((ROOT / "evaluation" / "bk_bini_body_v1_conservative").glob("bk_bini_body_v1_conservative_eval_*.png"))
+CONSERVATIVE_SHEET = ROOT / "contact_sheets" / "bk_bini_body_v1_conservative_eval.jpg"
+CONSERVATIVE_LORA_NAME = "bk_bini_body_v1_conservative.safetensors"
 
 
 def cards_for(images: list[Path], folder: str, status: str) -> str:
@@ -44,6 +47,13 @@ def main():
     rejected_cards = cards_for(REJECTED_IMAGES, "rejected", "rejected")
     eval_cards = cards_for(EVAL_IMAGES, "evaluation/body_lora_v1", "evaluation")
     comparison_sheets = sheets_for(COMPARISON_SHEETS, "evaluation/comparison_grids")
+    conservative_cards = cards_for(CONSERVATIVE_IMAGES, "evaluation/bk_bini_body_v1_conservative", "conservative evaluation")
+    conservative_sheet = ""
+    if CONSERVATIVE_SHEET.exists():
+        conservative_sheet = f'''      <a class="sheet" href="contact_sheets/{CONSERVATIVE_SHEET.name}" target="_blank" rel="noopener">
+        <img src="contact_sheets/{CONSERVATIVE_SHEET.name}" alt="conservative evaluation contact sheet">
+        <span>{CONSERVATIVE_SHEET.name} · {len(CONSERVATIVE_IMAGES)} evaluation images</span>
+      </a>'''
     eval_sheet = ""
     if EVAL_SHEET.exists():
         eval_sheet = f'''      <a class="sheet" href="contact_sheets/{EVAL_SHEET.name}" target="_blank" rel="noopener">
@@ -259,6 +269,17 @@ def main():
       </div>
       <div class="contact-sheets">
 {comparison_sheets}
+      </div>
+    </section>
+    <section aria-label="Body LoRA v1 conservative evaluation">
+      <h2>BODY LORA V1 CONSERVATIVE EVALUATION</h2>
+      <p class="meta">LoRA: <code>{CONSERVATIVE_LORA_NAME}</code> · config: rank 16, alpha 16, lr 8e-5, text encoder off, 1024 resolution, checkpoints every 250 steps, target 1600 steps.</p>
+      <p class="meta"><a href="reviews/bk_bini_body_v1_conservative_training_report.md">bk_bini_body_v1_conservative_training_report.md</a></p>
+      <div class="contact-sheets">
+{conservative_sheet}
+      </div>
+      <div class="grid">
+{conservative_cards}
       </div>
     </section>
     <section aria-label="Body LoRA v1 evaluation">
